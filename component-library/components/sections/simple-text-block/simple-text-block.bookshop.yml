@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Simple Text Block"
+  label: 'Simple Text Block'
   description: Block of content with a header
   icon: article
   tags: ['text']
@@ -14,7 +14,7 @@ blueprint:
     heading: bookshop:generic/heading!
     text: bookshop:generic/text-block!
   styles:
-    color_group: "primary"
+    color_group: 'primary'
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

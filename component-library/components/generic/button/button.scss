@@ -2,7 +2,7 @@
   $c: &;
   all: unset;
   padding: 16px 12px;
-  color: var(--main-text-color, #F9F9FB);
+  color: var(--main-text-color, #f9f9fb);
   background: transparent;
   font-size: var(--button);
   font-weight: var(--font-weight-bold);
@@ -21,14 +21,15 @@
   }
 
   &--primary {
-    border: 2px solid var(--main-text-color, #F9F9FB);
+    border: 2px solid var(--main-text-color, #f9f9fb);
     &:hover {
-      color: var(--main-background-color, #3B3B3D);
-      border: 2px solid var(--main-background-color, #3B3B3D);
-      background: var(--main-text-color, #F9F9FB);
-      
-      .c-hero-library-icon__image, .c-hero-library-icon__svg {
-        --c-hero-library-icon-color: var(--main-background-color, #3B3B3D);
+      color: var(--main-background-color, #3b3b3d);
+      border: 2px solid var(--main-background-color, #3b3b3d);
+      background: var(--main-text-color, #f9f9fb);
+
+      .c-hero-library-icon__image,
+      .c-hero-library-icon__svg {
+        --c-hero-library-icon-color: var(--main-background-color, #3b3b3d);
       }
     }
   }
@@ -38,57 +39,58 @@
       text-decoration: underline;
     }
 
-    .c-hero-library-icon{
-      transition:all 0.2s;
+    .c-hero-library-icon {
+      transition: all 0.2s;
     }
 
-    &#{$c}--arrow-up{
-      .c-hero-library-icon{
-        bottom:0;
+    &#{$c}--arrow-up {
+      .c-hero-library-icon {
+        bottom: 0;
       }
-      &:hover{
-        .c-hero-library-icon{
-          bottom:3px;
+      &:hover {
+        .c-hero-library-icon {
+          bottom: 3px;
         }
       }
     }
-    &#{$c}--arrow-right{
-      .c-hero-library-icon{
-        left:0;
+    &#{$c}--arrow-right {
+      .c-hero-library-icon {
+        left: 0;
       }
-      &:hover{
-        .c-hero-library-icon{
-          left:3px;
+      &:hover {
+        .c-hero-library-icon {
+          left: 3px;
         }
       }
     }
-    &#{$c}--arrow-down{
-      .c-hero-library-icon{
-        top:0;
+    &#{$c}--arrow-down {
+      .c-hero-library-icon {
+        top: 0;
       }
-      &:hover{
-        .c-hero-library-icon{
-          top:3px;
+      &:hover {
+        .c-hero-library-icon {
+          top: 3px;
         }
       }
     }
-    &#{$c}--arrow-left{
-      .c-hero-library-icon{
-        right:0;
+    &#{$c}--arrow-left {
+      .c-hero-library-icon {
+        right: 0;
       }
-      &:hover{
-        .c-hero-library-icon{
-          right:3px;
+      &:hover {
+        .c-hero-library-icon {
+          right: 3px;
         }
       }
     }
   }
 
-  .c-hero-library-icon{
-    position:relative;
+  .c-hero-library-icon {
+    position: relative;
   }
 
-  .c-hero-library-icon__image, .c-hero-library-icon__svg {
-      --c-hero-library-icon-color: var(--main-text-color, #F9F9FB);          
+  .c-hero-library-icon__image,
+  .c-hero-library-icon__svg {
+    --c-hero-library-icon-color: var(--main-text-color, #f9f9fb);
   }
 }

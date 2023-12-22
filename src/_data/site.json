@@ -45,9 +45,7 @@
                   "type": "image",
                   "comment": "This input is restricted to only allow images with type SVG",
                   "options": {
-                    "accepts_mime_types": [
-                      "image/svg+xml"
-                    ]
+                    "accepts_mime_types": ["image/svg+xml"]
                   }
                 }
               }

@@ -3,7 +3,7 @@ spec:
   structures:
     - card_imagery_blocks
     - icon_blocks
-  label: "Hero Library Icon"
+  label: 'Hero Library Icon'
   description: An icon (from https://heroicons.com/) with an optional border and customisable color
   icon: bolt
   tags: []
@@ -15,7 +15,7 @@ blueprint:
   icon_type: solid
   rounded_border: false
   theme_color: false
-  color: "#7d7f7c"
+  color: '#7d7f7c'
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

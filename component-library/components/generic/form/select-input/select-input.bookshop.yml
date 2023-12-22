@@ -2,14 +2,14 @@
 spec:
   structures:
     - form_blocks
-  label: "Select Input"
+  label: 'Select Input'
   description: A select input with custom options
   icon: checklist
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ""
+  label: ''
   id:
   options:
     - name:

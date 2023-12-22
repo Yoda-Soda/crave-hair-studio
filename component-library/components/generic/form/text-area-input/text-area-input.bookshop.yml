@@ -2,15 +2,15 @@
 spec:
   structures:
     - form_blocks
-  label: "Text Area Input"
+  label: 'Text Area Input'
   description: Longer simple text input
   icon: create
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ""
-  placeholder: ""
+  label: ''
+  placeholder: ''
   id:
   rows: 2
   required: false

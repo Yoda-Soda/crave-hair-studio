@@ -1,24 +1,23 @@
-{% assign grid_items = "" %} 
-{% assign card_primary_heading_hierarchy = "h2" %}
-{% assign card_eyebrow_headline_hierarchy = "h3" %}
+{% assign grid_items = '' %}
+{% assign card_primary_heading_hierarchy = 'h2' %}
+{% assign card_eyebrow_headline_hierarchy = 'h3' %}
 {% if content.heading.primary_heading and content.heading.eyebrow_headline %}
-    {% assign card_primary_heading_hierarchy = "h4" %}
-    {% assign card_eyebrow_headline_hierarchy = "h5" %}
+  {% assign card_primary_heading_hierarchy = 'h4' %}
+  {% assign card_eyebrow_headline_hierarchy = 'h5' %}
 {% elsif content.heading.primary_heading or content.heading.eyebrow_headline %}
-    {% assign card_primary_heading_hierarchy = "h3" %}
-    {% assign card_eyebrow_headline_hierarchy = "h4" %}
+  {% assign card_primary_heading_hierarchy = 'h3' %}
+  {% assign card_eyebrow_headline_hierarchy = 'h4' %}
 {% endif %}
 
-    
 {% for item in content.grid_items %}
-    {% capture image %}
+  {% capture image %}
         _bookshop_name: {{ item.image._bookshop_name }}
         image_path: {{ item.image.image_path }}
         image_alt: {{ item.image.image_alt }}
         image_sizes: "(min-width: 769px) 368px, (min-width: 480px) 63vw, 94vw"
     {% endcapture %}
-    {% assign image = image | ymlify %}
-    {% capture card %}
+  {% assign image = image | ymlify %}
+  {% capture card %}
         - content:
             id: {{ content.id }}
             imagery: {{ image | json }}
@@ -30,7 +29,7 @@
             description: "{{ item.description }}"
             buttons: {{ item.buttons | json }}
     {% endcapture %}
-    {% assign grid_items = grid_items | append: card %}
+  {% assign grid_items = grid_items | append: card %}
 {% endfor %}
 
 {% capture card_grid_content %}

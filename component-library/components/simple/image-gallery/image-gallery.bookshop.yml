@@ -1,7 +1,7 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: "Image Gallery"
+  label: 'Image Gallery'
   description: A grid layout of images
   icon: collections
   tags: []
@@ -10,7 +10,7 @@ spec:
 blueprint:
   show_note: true
   images: [bookshop:generic/image]
-  button: 
+  button:
     _bookshop_name: generic/button
     text: Load more
     variant: primary

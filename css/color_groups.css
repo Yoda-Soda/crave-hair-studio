@@ -1,6 +1,6 @@
 :root {
-  --secondary0__background: #1b1b1d;
-  --secondary0__foreground: #d9d9dc;
+  --secondary0__background: #dfd4cf;
+  --secondary0__foreground: #0b0b0b;
   --secondary0__interaction: undefined;
 }
 
@@ -12,7 +12,7 @@
   color: var(--main-text-color);
 }
 .component--primary {
-  --main-background-color: #3b3b3d;
+  --main-background-color: #1b1b1d;
   --main-text-color: #f9f9fb;
   --interaction-color: #2566f2;
 }

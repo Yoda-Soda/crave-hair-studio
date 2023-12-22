@@ -1,7 +1,7 @@
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
-  label: "Text block"
+  label: 'Text block'
   description: A block of content (text, headings, links etc)
   icon: edit_note
   tags: []
@@ -38,7 +38,7 @@ preview:
     nulli, et ubi procul astris tumulos alimentaque post dryadas! Animal possit
     deficit vestro: *neci carina* veniet agnovique popularis, Amphissos, quem
     oculis Hebre auro.<sub>1</sub>
-    
+
 
     Ense signum foret paucaqueexhalari
     * Coniugis genibus o meosque silvas
@@ -86,7 +86,7 @@ preview:
     patulos ille eadem lignum silices videt. *Quod genus accipe* atque sit *Lacinia
     quaerenti* propiusque oculos cursu, aliter sterilique causa usus, quibus! <u>Secus
     aut, quis, puppimque is corpus moenia Cythereius erit, fluminea?</u>
-          
+
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   text:

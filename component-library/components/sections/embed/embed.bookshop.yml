@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Embed"
+  label: 'Embed'
   description: A custom embed along with any extra information
   icon: web_asset
   tags: ['embed', 'media', 'document']
@@ -17,7 +17,7 @@ blueprint:
     embed: bookshop:generic/custom-embed!
     button: bookshop:generic/button
   styles:
-    color_group: "primary"
+    color_group: 'primary'
     content_alignment: center
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

@@ -2,14 +2,14 @@
 spec:
   structures:
     - form_blocks
-  label: "Email Input"
+  label: 'Email Input'
   description: Email address input
   icon: mail_outline
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ""
+  label: ''
   id:
   required: false
   placeholder:

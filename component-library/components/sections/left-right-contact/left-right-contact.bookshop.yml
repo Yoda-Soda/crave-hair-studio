@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Contact"
+  label: 'Contact'
   description: Contact information with a map
   icon: contact_phone
   tags: ['two column', 'contact', 'map']
@@ -19,9 +19,9 @@ blueprint:
       - text: 'Email address: mybusiness@business.com'
         hero_library_icon_name: envelope
     map: bookshop:simple/map
-    buttons: [bookshop:generic/button]    
+    buttons: [bookshop:generic/button]
   styles:
-    color_group: "primary"
+    color_group: 'primary'
     image_alignment: left
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -37,15 +37,15 @@ preview:
     map: bookshop:simple/map
     buttons: [bookshop:generic/button]
   styles:
-    color_group: "primary"
+    color_group: 'primary'
     image_alignment: left
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   contact_details:
     type: array
-    options:         
-      structures:        
+    options:
+      structures:
         values:
           - label: Email
             icon: mail_outline
@@ -59,8 +59,8 @@ _inputs:
               _type: Phone
               text: 'Phone number: 312 325 326'
               hero_library_icon_name: phone
-          - label: Address 
-            icon: location_on        
+          - label: Address
+            icon: location_on
             value:
               _type: Address
               text: 'Address: 1 Fake St, Faketown'
@@ -76,6 +76,6 @@ _inputs:
             value:
               _type: Custom
               text: ''
-              hero_library_icon_name: ''    
+              hero_library_icon_name: ''
   image_alignment:
     label: Map Alignment
