@@ -2,14 +2,14 @@
 spec:
   structures:
     - form_blocks
-  label: 'Radio Button Group'
+  label: "Radio Button Group"
   description: Group of radio button inputs
   icon: radio_button_unchecked
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ''
+  label: ""
   id:
   required: false
   radio_buttons:
@@ -21,7 +21,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  label: 'Radio Button group'
+  label: "Radio Button group"
   radio_buttons:
     - label: Radio button 1
       checked: false

@@ -2,14 +2,14 @@
 spec:
   structures:
     - form_blocks
-  label: 'Date Input'
+  label: "Date Input"
   description: Calendar date picker input
   icon: date_range
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ''
+  label: ""
   id:
   required: false
   min_today: false

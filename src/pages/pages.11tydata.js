@@ -1,30 +1,32 @@
-// Set to true for development environment, false for production.
-// When true, developers can see all posts
+// Set to true for development environment, false for production. 
+// When true, developers can see all posts 
 // without having to manually change each post's front matter.
-const isDevEnv = false;
+const isDevEnv = false
+
 
 function showDraft(data) {
-  const isDraft = 'draft' in data && data.draft !== false;
+	const isDraft = 'draft' in data && data.draft !== false;
 
-  return isDevEnv || !isDraft;
+	return isDevEnv || !isDraft;
 }
 
 module.exports = {
-  layout: './layouts/page.html',
-  eleventyComputed: {
-    eleventyExcludeFromCollections: function (data) {
-      if (showDraft(data)) {
-        return data.eleventyExcludeFromCollections;
-      } else {
-        return true;
-      }
-    },
-    permalink: function (data) {
-      if (showDraft(data)) {
-        return data.permalink;
-      } else {
-        return false;
-      }
-    },
-  },
+	layout: "./layouts/page.html",
+	eleventyComputed: {
+		eleventyExcludeFromCollections: function(data) {
+			if (showDraft(data)) {
+				return data.eleventyExcludeFromCollections;
+			} else {
+				return true;
+			}
+		},
+		permalink: function(data) {
+			if(showDraft(data)) {
+				return data.permalink;
+			} else {
+				return false;
+			}
+		}
+		
+	}
 };

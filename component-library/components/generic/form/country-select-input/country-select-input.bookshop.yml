@@ -2,14 +2,14 @@
 spec:
   structures:
     - form_blocks
-  label: 'Country Input'
+  label: "Country Input"
   description: Country selector input
   icon: public
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ''
+  label: ""
   id:
   helper_text:
 

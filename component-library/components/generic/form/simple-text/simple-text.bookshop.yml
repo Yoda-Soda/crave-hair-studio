@@ -2,7 +2,7 @@
 spec:
   structures:
     - form_blocks
-  label: 'Form Simple Text'
+  label: "Form Simple Text"
   description: A simple text block for use in a form
   icon: edit_note
   tags: []

@@ -2,7 +2,7 @@
 spec:
   structures:
     - form_blocks
-  label: 'Section Heading'
+  label: "Section Heading"
   description: A heading for form sections
   icon: title
   tags: []
@@ -10,6 +10,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   text: Form section
+  
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

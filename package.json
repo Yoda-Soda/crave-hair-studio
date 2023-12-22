@@ -31,10 +31,8 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",
     "@bookshop/sass": "^3.6.5",
-    "@shopify/prettier-plugin-liquid": "^1.4.0",
     "eleventy-plugin-svg-contents": "^0.7.0",
-    "outdent": "^0.8.0",
-    "prettier": "^3.1.1"
+    "outdent": "^0.8.0"
   },
   "dependencies": {
     "@bookshop/browser": "3.6.5",

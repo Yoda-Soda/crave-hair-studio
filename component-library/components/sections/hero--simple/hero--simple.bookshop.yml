@@ -2,7 +2,7 @@
 spec:
   structures:
     - hero_blocks
-  label: 'Hero - Simple'
+  label: "Hero - Simple"
   description: A simple heading block to be used as a hero
   icon: feed
   tags: []
@@ -14,13 +14,14 @@ blueprint:
     description: Description text to compliment the block
   styles:
     content_alignment: center
-    color_group: 'primary'
+    color_group: "primary"
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   styles:
     content_alignment: center
-    color_group: 'primary'
+    color_group: "primary"
   content:
     heading:
       _bookshop_name: generic/heading

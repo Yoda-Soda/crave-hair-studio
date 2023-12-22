@@ -2,15 +2,15 @@
 spec:
   structures:
     - form_blocks
-  label: 'Phone Input'
+  label: "Phone Input"
   description: Phone number input
   icon: call
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ''
-  placeholder: ''
+  label: ""
+  placeholder: ""
   id:
   required: false
   helper_text:

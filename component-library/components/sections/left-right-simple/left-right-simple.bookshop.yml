@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: 'Text block with image'
+  label: "Text block with image"
   description: Heading, text and buttons with supporting image
   icon: art_track
   tags: ['two column', 'image']
@@ -17,7 +17,7 @@ blueprint:
     image: bookshop:generic/image!
   styles:
     image_padding: true
-    color_group: 'primary'
+    color_group: "primary"
     image_alignment: left
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

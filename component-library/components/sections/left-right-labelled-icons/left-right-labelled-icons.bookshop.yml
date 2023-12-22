@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: 'Labelled Icons'
+  label: "Labelled Icons"
   description: Key features/services with an iconed layout
   icon: insert_emoticon
   tags: ['two column', 'icon', 'image']
@@ -25,7 +25,7 @@ blueprint:
     buttons: [bookshop:generic/button!]
     image: bookshop:generic/image!
   styles:
-    color_group: 'primary'
+    color_group: "primary"
     image_alignment: left
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -47,23 +47,23 @@ preview:
         icon_type: solid
     buttons:
       - _bookshop_name: generic/button
-        url: '#'
+        url: "#"
         open_in_new_tab: false
-        text: 'Book Now'
-        variant: 'primary'
+        text: "Book Now"
+        variant: "primary"
         disabled: false
-        arrow: 'right'
+        arrow: "right"
         onclick:
     image:
       bookshop: generic/image
       image_path: https://placekitten.com/300/500
       image_alt: A cute kitten
   styles:
-    color_group: 'primary'
+    color_group: "primary"
     image_alignment: left
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs:
+_inputs:   
   icon_path:
     type: image
   icons:

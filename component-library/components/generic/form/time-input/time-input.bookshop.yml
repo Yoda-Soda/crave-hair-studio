@@ -2,15 +2,15 @@
 spec:
   structures:
     - form_blocks
-  label: 'Time Input'
+  label: "Time Input"
   description: Time selection input
   icon: alarm
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: ''
-  placeholder: ''
+  label: ""
+  placeholder: ""
   id:
   helper_text:
   min:

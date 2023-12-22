@@ -1,6 +1,0 @@
-# Ignore artifacts:
-_site/
-node_modules/
-.jampack
-.cache
-src/assets/styles/bookshop.css

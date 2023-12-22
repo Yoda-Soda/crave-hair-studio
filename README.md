@@ -28,19 +28,19 @@ Changes in the data files require the site to be rebuilt to see your changes.
 ### Nav/footer details
 
 - Reused around the site to save multiple editing locations.
-- Set in the _Data_ / _Nav_ and _Data_ / _Footer_ sections
+- Set in the *Data* / *Nav* and *Data* / *Footer* sections
 - Changes in these files are not reflected in live editing - you must save to see the changes in page building
 
 ### SEO details and favicon
 
-- Favicon and site SEO details are set in the _Data_ / _SEO_ section
+- Favicon and site SEO details are set in the *Data* / *SEO* section
 - Page SEO details are set in the frontmatter for each page (if they aren't set the site SEO details are used by default)
 
 ### Theme colors and fonts
 
-- Theme colors and fonts can be set in _Data_ / _Theme_
+- Theme colors and fonts can be set in *Data* / *Theme*
 - The colors will update on the next build
-- More font options can be added in _Data_ / _Fonts_
+- More font options can be added in *Data* / *Fonts*
 
 ## Setup
 
@@ -95,15 +95,15 @@ See [this blog](https://cloudcannon.com/blog/automatically-optimize-your-images-
 - The "Embed" component is built to be generic and support any embed, however we cannot guarantee it will work seemlessly with all embeddable content.
 - We recommend using other components to check if they can meet your requirements first.
 - We have succesfully tested the following embeds:
-  - Google forms
-  - Hubspot forms
-  - Instagram
-  - Spotify
-  - X (formerly Twitter)
-  - Google docs
-  - YouTube video (although we would recommend using the "Centered Large Asset" component with a video instead)
-  - Lottie files
-  - PDFs
+    - Google forms
+    - Hubspot forms
+    - Instagram
+    - Spotify
+    - X (formerly Twitter)
+    - Google docs
+    - YouTube video (although we would recommend using the "Centered Large Asset" component with a video instead)
+    - Lottie files
+    - PDFs
 
 All options in the above list (except YouTube videos) require you to use the "Embed" component.
 
@@ -113,9 +113,9 @@ We have made efforts to prioritize accessibility in our design, but we acknowled
 
 ## Component links
 
-All blocks have an id field that can be set and then used as a link to that component.
+All blocks have an id field that can be set and then used as a link to that component. 
 
-This is helpful (for example) if you want to link to information about your services from the nav without having a fully seperate page for it. You can set the id field in the services block to be `services` and then in _Data_ / _Nav_ you can have a link to `#services`.
+This is helpful (for example) if you want to link to information about your services from the nav without having a fully seperate page for it. You can set the id field in the services block to be `services` and then in *Data* / *Nav* you can have a link to `#services`.
 
 ## Development
 

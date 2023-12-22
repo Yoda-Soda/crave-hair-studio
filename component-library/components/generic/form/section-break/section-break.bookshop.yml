@@ -2,7 +2,7 @@
 spec:
   structures:
     - form_blocks
-  label: 'Form Section Break'
+  label: "Form Section Break"
   description: Provides a break in the form to separate sections
   icon: density_large
   tags: []

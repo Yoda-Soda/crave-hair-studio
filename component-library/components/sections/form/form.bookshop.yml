@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: 'Form'
+  label: "Form"
   description: A CloudCannon form with a heading
   icon: dynamic_form
   tags: ['form']
@@ -15,11 +15,11 @@ blueprint:
     description: Description text to compliment the block
     form: bookshop:simple/form-builder!
   styles:
-    color_group: 'primary'
+    color_group: "primary"
     content_alignment: center
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs:
+_inputs:  

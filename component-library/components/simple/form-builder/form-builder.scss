@@ -1,10 +1,11 @@
 .c-form-builder {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap-large);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-large);
 
-  &__submit-button {
-    text-align: center;
-  }
+    &__submit-button {
+        text-align: center;
+    }
+
 }
