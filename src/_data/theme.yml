@@ -6,7 +6,7 @@ primary_color_group:
 custom_color_groups:
   - name: Secondary
     background_color: '#000000'
-    foreground_color: '#ffffff'
+    foreground_color: '#f9f9fb'
     interation_color: '#c26ac2'
 heading_font: Lato
 content_font: Lato
