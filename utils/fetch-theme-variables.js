@@ -50,7 +50,7 @@ css_string_component += `--interaction-color: #2566f2;\n`
 css_string_component += `background-color: var(--main-background-color);\n`
 css_string_component += `color: var(--main-text-color);\n`
 
-css_string_nav += `--main-background-color: #1B1B1D;\n`
+css_string_nav += `--main-background-color: #0C0C0D;\n`
 css_string_nav += `--main-text-color: #D9D9DC;\n`
 
 css_string_footer += `--main-background-color: #1B1B1D;\n`
